@@ -137,3 +137,38 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --- İşletim Sistemi Dosyaları (Gereksiz) ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Editör ve IDE Ayarları (Kişisel ayarların gitmemeli) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Node.js ve Paketler (İleride npm kullanırsan diye) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# --- Build ve Dist Klasörleri (Derlenmiş dosyalar) ---
+dist/
+build/
+
+# --- Güvenlik ve Gizli Anahtarlar (ÇOK ÖNEMLİ) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+apikey.js
+secrets.js
+
+# --- Log Dosyaları ---
+*.log
